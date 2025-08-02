@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <!-- Traits -->
+  <personalitytrait>Черта</personalitytrait>
+  <personalitytrait.optimist>Оптимист</personalitytrait.optimist>
+  <personalitytrait.nihilist>Пессимист</personalitytrait.nihilist>
+  <personalitytrait.cultist>Культист</personalitytrait.cultist>
+  <personalitytrait.supremacist>Националист</personalitytrait.supremacist>
+  <personalitytrait.survivor>Выживший</personalitytrait.survivor>
+  <personalitytrait.loyalist>Лоялист</personalitytrait.loyalist>
+  <personalitytrait.philosophical>Философ</personalitytrait.philosophical>
+  <personalitytrait.conspiracist>Конспиролог</personalitytrait.conspiracist>
+</infotexts>

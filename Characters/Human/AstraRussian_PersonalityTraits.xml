@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PersonalityTraits>
+  <!-- Personality traits -->
+  <PersonalityTrait identifier="optimist" alloweddialogtags="optimist,none" commonness="0.5" />
+  <PersonalityTrait identifier="nihilist" alloweddialogtags="nihilist,none" commonness="1" />
+  <PersonalityTrait identifier="cultist" alloweddialogtags="cultist,none" commonness="0.5" />
+  <PersonalityTrait identifier="supremacist" alloweddialogtags="supremacist,none" commonness="0.5" />
+  <PersonalityTrait identifier="philosophical" alloweddialogtags="philosophical,none" commonness="0.5" />
+  <PersonalityTrait identifier="conspiracist" alloweddialogtags="conspiracist,none" commonness="0.5" />
+  <PersonalityTrait identifier="survivor" alloweddialogtags="survivor,none" commonness="0.5" />
+  <PersonalityTrait identifier="loyalist" alloweddialogtags="loyalist,none" commonness="0.5" />
+</PersonalityTraits>

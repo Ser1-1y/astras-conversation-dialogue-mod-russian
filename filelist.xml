@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="[RUS] Astra's Bot Conversation-Dialogue Mod" modversion="2.0" corepackage="False" steamworkshopid="3047423616" gameversion="1.5.9.2" expectedhash="B570CB1E4612D5E6139AC8D7797B259B">
+  <Text file="%ModDir%/Texts/Russian/AstraRussian_Text.xml" />
+  <NPCConversations file="%ModDir%/NPCConversations/Russian/AstraRussian_Conversations.xml" />
+  <NPCPersonalityTraits file="%ModDir%/Characters/Human/AstraRussian_PersonalityTraits.xml" />
+</contentpackage>

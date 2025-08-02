@@ -1,0 +1,2 @@
+  <Character file="Mods/Astra's Bot Conversation-Dialogue Mod/Human/Astra_Traits.xml" />
+  <Text file="Mods/Astra's Bot Conversation-Dialogue Mod/English/AstraEnglish_Text.xml" />
