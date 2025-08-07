@@ -3795,66 +3795,66 @@
     </Conversation>
   </Conversation>
   <!-- New 9 of May Small Part End-->
-  <Conversation line="I still remember hearing about the supply ships that used to come from Earth." speaker="0" maxintensity="0.4">
-    <Conversation line="Stocked to the brim with food, diving suits, weaponry, minerals..." speaker="0">
-      <Conversation line="Those claims were likely exaggerated." speaker="1" />
-      <Conversation line="I wish we were that lucky." speaker="1" />
-      <Conversation line="Sounds like a party." speaker="1" speakertags="laid-back" />
-      <Conversation line="We don't need those supply ships to survive." speaker="1" speakertags="survivor" />
+  <Conversation line="Всё ещё помню корабли снабжения с Земли." speaker="0" maxintensity="0.4">
+    <Conversation line="Заполненные едой, скафандрами, оружием, ресурсами..." speaker="0">
+      <Conversation line="Ну, ты немного преувеличиваешь." speaker="1" />
+      <Conversation line="Эх, вот бы нам так." speaker="1" />
+      <Conversation line="Звучит как хорошая вечириночка." speaker="1" speakertags="laid-back" />
+      <Conversation line="Нам никакие корабли не нужны." speaker="1" speakertags="survivor" />
     </Conversation>
-    <Conversation line="I don't buy the claims. Europa was always second fiddle to Mars." speaker="1">
-      <Conversation line="Well I guess that's true. I didn't really think about that." speaker="0" />
-      <Conversation line="It's bullshit, we have it way worse than them." speaker="0" />
-      <Conversation line="Europan colonization tickets were even cheaper too. Earth's leaders knew what they were doing." speaker="1" />
-      <Conversation line="I don't know, there's a ton of supplies still in circulation to this day..." speaker="0" />
+    <Conversation line="Не верю. Европа всегда им была не интересна, у них есть Марс." speaker="1">
+      <Conversation line="Ну, наверное так. Не думал даже." speaker="0" />
+      <Conversation line="Дерьмо собачье, у нас намного лучше, чем у них." speaker="0" />
+      <Conversation line="Билеты на Европу были подешевле, чем на Марс... Они знали что делали." speaker="1" />
+      <Conversation line="Ну не знаю, у нас ресурсов и сейчас не мало." speaker="0" />
     </Conversation>
-    <Conversation line="That was back when the surface was habitable." speaker="1">
-      <Conversation line="I wonder what the surface looks like..." speaker="0" />
-      <Conversation line="It's still habitable, only... very restrictive." speaker="2" />
-      <Conversation line="I heard there was even a space elevator constructed back then. I'd have killed to see that." speaker="2" />
-      <Conversation line="Man, has it really been that long?" speaker="0" />
+    <Conversation line="Тогда и поверхность была обитаемая." speaker="1">
+      <Conversation line="А как она выглядит?" speaker="0" />
+      <Conversation line="Она ещё обитаема, просто... С ограничениями." speaker="2" />
+      <Conversation line="Слышал что тогда даже космический лифт был. Я бы убил чтобы на него поглядеть." speaker="2" />
+      <Conversation line="Боже, неужели прошло столько времени?" speaker="0" />
     </Conversation>
-    <Conversation line="We're on our own now." speaker="1">
-      <Conversation line="Yeah..." speaker="0" />
-      <Conversation line="So focus up. No one is coming to save us." speaker="1" speakertags="survivor,professional,nihilist" />
-      <Conversation line="Mhm. It's okay though, we do great for ourselves here." speaker="2" speakertags="optimist" />
-      <Conversation line="It's been so many years. I hope they haven't forgotten us." speaker="0">
-        <Conversation line="They certainly have. We've been left to die." speaker="2" speakertags="nihilist" />
-        <Conversation line="I doubt they've forgotten. They've just grown disinterested." speaker="2" />
-        <Conversation line="It makes no logical sense to have been forgotten by them. I do suspect they feel no attachment to our colonial endeavours, however." speaker="2" speakertags="philosophical" />
-        <Conversation line="We've retreated under the ice like hermits. I'd be shocked if they even remember humanity is down in this watery hellhole." speaker="2" />
+    <Conversation line="Ну, теперь мы сами за себя." speaker="1">
+      <Conversation line="Ага..." speaker="0" />
+      <Conversation line="Так что сосредоточьтесь. Никто не прилетит нас спасать." speaker="1" speakertags="survivor,professional,nihilist" />
+      <Conversation line="М-м. Ну и ничего страшного, нам и так нормально." speaker="2" speakertags="optimist" />
+      <Conversation line="Прошло столько лет. Надеюсь, про нас не забыли." speaker="0">
+        <Conversation line="Забыли, ещё как. Нас оставили умирать." speaker="2" speakertags="nihilist" />
+        <Conversation line="Не думаю. Просто им стало всё равно." speaker="2" />
+        <Conversation line="Нелогично, что мы были забыты. Однако я подозреваю, что они не испытывают никакой привязанности к нашим колониальным начинаниям." speaker="2" speakertags="philosophical" />
+        <Conversation line="Мы сбежали под лёд, прямо как раки. Я бы удивился, если они хоть раз вспомнят про нашу преисподнюю." speaker="2" />
       </Conversation>
     </Conversation>
   </Conversation>
-  <Conversation line="I hate the god damn new submarine tiering system the Coalition is enforcing." speaker="0" maxintensity="0.4">
-    <Conversation line="Any old sub with enough hull reinforcement could get anywhere!" speaker="0">
-      <Conversation line="Now though, you have to pay upwards of 30 thousand marks to get a sub to go deep! Highway robbery!" speaker="0">
-        <Conversation line="They did it for a good reason. Upgraded Barsuks blew up into pieces. Why do you think we nicknamed them Blowsuks?" speaker="1">
-          <Conversation line="Wait, that wasn't a sexual innuendo?" speaker="2" />
-          <Conversation line="I thought that was because of the rumors of Barsuk captains throwing sea orgys." speaker="2" />
-          <Conversation line="Hehe... Blowsuk." speaker="2" speakertags="joker" />
-          <Conversation line="Someone once offered me a Blowsuk in a bathroom, I'd have accepted if I knew it was a whole damn sub!" speaker="2" />
+  <Conversation line="Я ненавижу как Коалиция лодки классифицирует." speaker="0" maxintensity="0.4">
+    <Conversation line="Ну слушай, любую подлодку можно усилить так, чтобы до самого дна доплыть!" speaker="0">
+      <Conversation line="Ну, за 30 000 марок-то конечно. Грабёж!" speaker="0">
+        <Conversation line="У них была на то веская причина. Улучшенные Барсуки взрываются как миленькие, теперь их Взрывуками называют." speaker="1">
+          <Conversation line="Погоди, это не про секс?" speaker="2" />
+          <Conversation line="Я думаю это потому что их капитаны любят оргии..." speaker="2" />
+          <Conversation line="Хех... Взрывуки." speaker="2" speakertags="joker" />
+          <Conversation line="Мне однажды предложили сделать Взрывуку в туалете, знал бы я что это целая подлодка!" speaker="2" />
         </Conversation>
       </Conversation>
     </Conversation>
-    <Conversation line="It was for safety reasons." speaker="1">
-      <Conversation line="When has the Coalition ever given a rat's ass about safety? Let's be honest, they're just lining their pockets." speaker="0">
-        <Conversation line="Whatever the case, I'm still following their tier suggestions." speaker="2" allowedjobs="captain" />
-        <Conversation line="Sure, I'll be honest. You're fucking retarded, there's my honesty." speaker="2" speakertags="rude" />
-        <Conversation line="They're keeping you safe..." speaker="1" />
-        <Conversation line="If you want to pilot your own tier 1 sub through the hydrothermal wastes, knock yourself out..." speaker="1" />
+    <Conversation line="Всё ради безопасности." speaker="1">
+      <Conversation line="Да разве Коалиции на безопасность не всё равно? Не придумывай, им лишь бы карманы наполнить." speaker="0">
+        <Conversation line="В чём бы не была причина, лучше к ним прислушиваться." speaker="2" allowedjobs="captain" />
+        <Conversation line="Хорошо, ладно... Признаюсь, ты дебил полный." speaker="2" speakertags="rude" />
+        <Conversation line="Они тебе жизнь спасают, а ты так..." speaker="1" />
+        <Conversation line="Ну, удачи тебе на первоуровневой подлодке в вулканах..." speaker="1" />
       </Conversation>
-      <Conversation line="Safety reasons?! An old Dugong with enough marks invested could make it all the way to the hydrothermal wastes!" speaker="0">
-        <Conversation line="Who in their right mind would pilot a Dugong to the hydrothermal wastes?" speaker="2 " />
-        <Conversation line="The key word there is could. Doesn't mean they did." speaker="2" />
-        <Conversation line="All the money you invested into it wasn't worth it. Buying a tier 2 or 3 sub now seems so much more cost effective." speaker="2" />
-        <Conversation line="Do you hear yourself right now?" speaker="2" />
+      <Conversation line="Безопасность!? Чуток денег и даже старая Дюгонь может до Вулканов добраться!" speaker="0">
+        <Conversation line="Каким надо быть идиотом чтобы на Дюгони туда плыть?" speaker="2 " />
+        <Conversation line="Ключевое слово - может. Не значит, что кто-то таким идиотизмом будет заниматься." speaker="2" />
+        <Conversation line="Деньги в воду. Дешевле будет новую подлодку купить." speaker="2" />
+        <Conversation line="Ты себя вообще слышишь?" speaker="2" />
       </Conversation>
     </Conversation>
-    <Conversation line="Even the Separatists are following it now. Considering how much they hate the Coalition, I think that should speak for itself." speaker="1">
-      <Conversation line="Grhh... you've got a fair point..." speaker="0" />
-      <Conversation line="The Separatists are following it now? Seriously?" speaker="0" />
-      <Conversation line="There goes my plans of siding with the Separatists." speaker="0" />
+    <Conversation line="Да даже сепаратисты им следует. Учитывая, как они ненавидят Коалицию... Должна быть явная причина." speaker="1">
+      <Conversation line="Эх... Имеет смысл..." speaker="0" />
+      <Conversation line="Серьёзно? Сепаратисты?" speaker="0" />
+      <Conversation line="Ну, теперь и они мне не по душе." speaker="0" />
       <Conversation line="" speaker="0" flags="Casual" />
     </Conversation>
   </Conversation>
