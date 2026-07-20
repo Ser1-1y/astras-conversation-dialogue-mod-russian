@@ -10,6 +10,7 @@
   <PersonalityTrait name="Философ" alloweddialogtags="philosophical,none" commonness="0,5" />
   <PersonalityTrait name="Конспиролог" alloweddialogtags="conspiracist,none" commonness="0,5" />
   <!-- Old -->
+  <!-- Ship Distress -->
   <Conversation line="Смерть придёт за каждым." speaker="0" speakertags="nihilist" minintensity="0.4" maxintensity="0.5">
     <Conversation line="Почему бы тебе не заткнуть чёртов свой рот и заняться делом?!" speaker="1" speakertags="rude" />
   </Conversation>
@@ -92,6 +93,7 @@
   <Conversation line="Никогда не хотел умереть таким образом!" speaker="0" minintensity="0.8" maxintensity="1.0" />
   <Conversation line="Статистическая вероятность нашего выживания крайне мала." speaker="0" speakertags="philosophical" minintensity="0.8" maxintensity="1.0" />
   <Conversation line="Всегда был готов умереть за Коалицию." speaker="0" speakertags="loyalist" minintensity="0.8" maxintensity="1.0" />
+  <!-- Idle Conversations -->
   <Conversation line="Всё пучком!" speaker="0" speakertags="optimist" maxintensity="0.2" />
   <Conversation line="Как вы думаете... Что за Вуалью?" speaker="0" speakertags="crazy" maxintensity="0.4">
     <Conversation line="Вуалью?" speaker="1">
@@ -401,6 +403,7 @@
         <Conversation line="Подождите, талами произошёл от флоры?" speaker="1">
           <Conversation line="Ты имеешь в виду таламус?" speaker="2">
             <Conversation line="Талами." speaker="1" />
+            <Conversation line="Таламусами их называют только в Южном море." speaker="3" speakertags="philosophical" />
             <Conversation line="Эта талами." speaker="3" speakertags="brokenenglish" />
           </Conversation>
           <Conversation line="Да." speaker="2" />
@@ -409,6 +412,7 @@
         <Conversation line="Подождите, таламус произошёл от флоры?" speaker="1">
           <Conversation line="Ты хотел сказать талами?" speaker="2">
             <Conversation line="Таламус." speaker="1" />
+            <Conversation line="Талами их называют только в Северном море." speaker="3" speakertags="philosophical" />
             <Conversation line="Эт таламис." speaker="3" speakertags="brokenenglish" />
           </Conversation>
           <Conversation line="Да." speaker="2" />
@@ -1034,9 +1038,10 @@
     <Conversation line="Что? Почему у нас таких нет?" speaker="1">
       <Conversation line="У нас с ними связи нет, помните?" speaker="0" />
       <Conversation line="Мы для них ничтожества." speaker="2" speakertags="nihilist" />
-      <Conversation line="Мы слишком далеко, связи нет." speaker="0">
-        <Conversation line="Не быстрая поездка." speaker="1" />
-        <Conversation line="М-да, я уже планировал купить парочку." speaker="1" />
+      <Conversation line="Мы слишком далеко, связи нет, помнишь?" speaker="0">
+        <Conversation line="Ну, за часик до туда явно не управиться." speaker="1" />
+        <Conversation line="М-да, я уже планировал купить парочку на аванпосте." speaker="1" />
+        <Conversation line="Связи точно нет из-за расстояния? Вроде же мы в этом не уверены..." speaker="1" />
         <Conversation line="Им наплевать на свои колонии." speaker="1" />
       </Conversation>
     </Conversation>
@@ -1064,11 +1069,11 @@
       <Conversation line="А ты?" speaker="0">
         <Conversation line="Не." speaker="1" />
       </Conversation>
-      <Conversation line="Разве это была не военная компания?" speaker="2">
-        <Conversation line="Может." speaker="1" />
-        <Conversation line="Ну, раз уж пушки..." speaker="1" />
-        <Conversation line="Может быть, но точно мы знать не можем." speaker="1" />
-        <Conversation line="Звучит правдоподобно." speaker="1" />
+      <Conversation line="Вроде, военная компания?" speaker="2">
+        <Conversation line="Возможно." speaker="1" />
+        <Conversation line="Ну, пушки у них явно были." speaker="1" />
+        <Conversation line="Может, но точно мы уже не узнаем." speaker="1" />
+        <Conversation line="Правдаподобно." speaker="1" />
       </Conversation>
     </Conversation>
     <Conversation line="Некоторые из них очень даже хороши." speaker="1">
@@ -1088,7 +1093,13 @@
         <Conversation line="Они все одинаковые потому, что все сделаны из одних и тех же частей." speaker="1" />
       </Conversation>
     </Conversation>
-    <Conversation line="Только тебе кажется." speaker="1">
+    <Conversation line="В холодных пещерах много чего одинакового. Это старый стандартизированный дизайн маяков, теперь строят новые." speaker="1">
+      <Conversation line="Хмм... Логично, я как раз недавно слышал об обновлённых маяках." speaker="0">
+        <Conversation line="Ага. Так что не волнуйся, с ума пока мы не сошли." speaker="1" />
+        <Conversation line="И я рад что они его усовершенствовали, у старого были некоторые... Проблемы." speaker="1" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="Только тебе." speaker="1">
       <Conversation line="Хм. Может у меня психоз." speaker="0">
         <Conversation line="Всё с тобой нормально, я тебя проверял." speaker="2" allowedjobs="medicaldoctor" />
         <Conversation line="Сканер говорит, что ты в норме." speaker="2" allowedjobs="medicaldoctor" />
@@ -3356,7 +3367,7 @@
         </Conversation>
       </Conversation>
     </Conversation>
-    <Conversation line="Даже у электричков с ней проблемы." speaker="1">
+    <Conversation line="Даже у электриков с ней проблемы." speaker="1">
       <Conversation line="Я электрик..." speaker="0">
         <Conversation line="Ну, старайся, что могу сказать." speaker="1">
           <Conversation line="Уже." speaker="0" />
@@ -3416,7 +3427,6 @@
       </Conversation>
     </Conversation>
   </Conversation>
-  <!-- New Previous -->
   <Conversation line="Смейся над насилием. Слово дай. Тишина в насилии. Слабость знай. Будущее мрачно, как тень в крае." speaker="0" maxintensity="0.4">
     <Conversation line="Заплачь. Слушай колыбель, смотри на небо, где светит свет. Последнее дело - уйти в тень, но не спеши, ведь жизнь - это плен." speaker="1">
       <Conversation line="Песню эту знаете?" speaker="0">
@@ -3508,11 +3518,6 @@
     <Conversation line="Всем бы нам отпуск." speaker="1" />
     <Conversation line="Куда? В Ползунвилль?" speaker="1" />
   </Conversation>
-  <Conversation line="Не нравится мне так глубоко." speaker="0" flags="SubmarineDeep">
-    <Conversation line="Я планирую прорваться без зачёркнутых имён в журнале." speaker="1" allowedjobs="captain">
-      <Conversation line="Трупы не считаются, кэп." speaker="2" speakertags="joker,fearful,rude,nihilist,survivor,professional" />
-    </Conversation>
-  </Conversation>
   <Conversation line="Я долго думал и должен всё таки признаться: клоуны - худшая из чётырёх главных фракций." speaker="0" maxintensity="0.4">
     <Conversation line="Конечно, худшая это церковь!" speaker="1" speakertags="supremacist">
       <Conversation line="Симбионт блин. Болезнь - вот настоящее название." speaker="1" />
@@ -3603,6 +3608,7 @@
       <Conversation line="Это выдумка сепаратистов... Э... Обратная выдумка." speaker="0" />
       <Conversation line="Это ты про Бухту Закат, не институт. Институт настоящий, я там был." speaker="0" />
       <Conversation line="Наверное? Я оттуда людей не знаю." speaker="0" />
+      <Conversation line="Нет, Институт реален и не выдумка." speaker="2" speakertags="philosophical" />
     </Conversation>
     <Conversation line="Нет, что говорят?" speaker="1">
       <Conversation line="Подвид креветки нашли в пещере в плато Афотика." speaker="0">
@@ -3685,8 +3691,6 @@
       <Conversation line="Ну, хотя бы не на одном месте стоять надо." speaker="1" />
     </Conversation>
   </Conversation>
-  <Conversation line="Как здесь вообще что-то разглядеть? Вы что-то видите?" speaker="0" flags="SubmarineDeep" />
-  <!-- New 9 of May -->
   <Conversation line="Я вод подумывал о том чтобы арендовать капсулу в отделе." speaker="0" maxintensity="0.4">
     <Conversation line="А я один раз в пяти-звёздочном капсульном отеле был, на один день. Там было всё. Свежая еда, сухой пол, даже горячий душ. Но больше всего мне запомнилась кровать." speaker="1">
       <Conversation line="Эх, деньки уже не те." speaker="1" />
@@ -3780,7 +3784,7 @@
       <Conversation line="Я от него в полном восторге. Вау." speaker="1" />
       <Conversation line="Ещё одна пытка для самого себя, помимо нахождения на этой посудине." speaker="1" speakertags="rude,nihilist" />
     </Conversation>
-    <Conversation line="Как они до сих пор работают?" speaker="1">
+    <Conversation line="Как они до сих пор не обанкротились?" speaker="1">
       <Conversation line="Цена и отсутствие конкуренции, ну, по большей части." speaker="2" />
       <Conversation line="Сам не знаю." speaker="0" />
       <Conversation line="Интересно, насколько же у них много денег что они новые продукты выпускают?" speaker="1" />
@@ -3794,125 +3798,124 @@
       </Conversation>
     </Conversation>
   </Conversation>
-  <!-- New 9 of May Small Part End-->
-  <Conversation line="Всё ещё помню корабли снабжения с Земли." speaker="0" maxintensity="0.4">
-    <Conversation line="Заполненные едой, скафандрами, оружием, ресурсами..." speaker="0">
-      <Conversation line="Ну, ты немного преувеличиваешь." speaker="1" />
-      <Conversation line="Эх, вот бы нам так." speaker="1" />
-      <Conversation line="Звучит как хорошая вечириночка." speaker="1" speakertags="laid-back" />
-      <Conversation line="Нам никакие корабли не нужны." speaker="1" speakertags="survivor" />
+  <Conversation line="Всё ещё помню о кораблях с припасами с Земли." speaker="0" maxintensity="0.4">
+    <Conversation line="Полных еды, скафандров, оружия, руды..." speaker="0">
+      <Conversation line="Эти заявления явно преувеличены." speaker="1" />
+      <Conversation line="Не в то время живём." speaker="1" />
+      <Conversation line="Звучит весело." speaker="1" speakertags="laid-back" />
+      <Conversation line="Не нужны нам никакие корабли с припасами." speaker="1" speakertags="survivor" />
     </Conversation>
-    <Conversation line="Не верю. Европа всегда им была не интересна, у них есть Марс." speaker="1">
-      <Conversation line="Ну, наверное так. Не думал даже." speaker="0" />
-      <Conversation line="Дерьмо собачье, у нас намного лучше, чем у них." speaker="0" />
-      <Conversation line="Билеты на Европу были подешевле, чем на Марс... Они знали что делали." speaker="1" />
-      <Conversation line="Ну не знаю, у нас ресурсов и сейчас не мало." speaker="0" />
+    <Conversation line="Не верю. Марс всегда был важнее Европы." speaker="1">
+      <Conversation line="Ум, всё таки ты прав. Не подумал." speaker="0" />
+      <Conversation line="Ну и бред, у нас тут дела намного хуже." speaker="0" />
+      <Conversation line="Билеты колонизатора на Европу ещё и дешевле были. Они знали что делают." speaker="1" />
+      <Conversation line="Ну не знаю... На рынке планеты всё ещё полно припасов..." speaker="0" />
     </Conversation>
-    <Conversation line="Тогда и поверхность была обитаемая." speaker="1">
-      <Conversation line="А как она выглядит?" speaker="0" />
-      <Conversation line="Она ещё обитаема, просто... С ограничениями." speaker="2" />
-      <Conversation line="Слышал что тогда даже космический лифт был. Я бы убил чтобы на него поглядеть." speaker="2" />
-      <Conversation line="Боже, неужели прошло столько времени?" speaker="0" />
+    <Conversation line="Ну, то было когда поверхность была пригодной для жизни." speaker="1">
+      <Conversation line="Интересно, как выглядит поверхность..." speaker="0" />
+      <Conversation line="На ней всё ещё можно жить... Просто с некоторыми НО." speaker="2" />
+      <Conversation line="Слышал что у нас даже был космический лифт. Я б убил чтобы на него посмотреть." speaker="2" />
+      <Conversation line="Боже, неужели это было так давно?" speaker="0" />
     </Conversation>
-    <Conversation line="Ну, теперь мы сами за себя." speaker="1">
+    <Conversation line="Ну, теперь мы сами по себе." speaker="1">
       <Conversation line="Ага..." speaker="0" />
-      <Conversation line="Так что сосредоточьтесь. Никто не прилетит нас спасать." speaker="1" speakertags="survivor,professional,nihilist" />
-      <Conversation line="М-м. Ну и ничего страшного, нам и так нормально." speaker="2" speakertags="optimist" />
-      <Conversation line="Прошло столько лет. Надеюсь, про нас не забыли." speaker="0">
-        <Conversation line="Забыли, ещё как. Нас оставили умирать." speaker="2" speakertags="nihilist" />
-        <Conversation line="Не думаю. Просто им стало всё равно." speaker="2" />
-        <Conversation line="Нелогично, что мы были забыты. Однако я подозреваю, что они не испытывают никакой привязанности к нашим колониальным начинаниям." speaker="2" speakertags="philosophical" />
-        <Conversation line="Мы сбежали под лёд, прямо как раки. Я бы удивился, если они хоть раз вспомнят про нашу преисподнюю." speaker="2" />
+      <Conversation line="Поэтому надо держаться вместе. Спасать нас никто не собирается." speaker="1" speakertags="survivor,professional,nihilist" />
+      <Conversation line="М-м. Ничего страшного, у нас тут не сильно плохо." speaker="2" speakertags="optimist" />
+      <Conversation line="Прошло так много лет. Надеюсь, про нас не забыли." speaker="0">
+        <Conversation line="Забыли. Нас оставили умирать." speaker="2" speakertags="nihilist" />
+        <Conversation line="Не думаю что про нас забыли. Скорее мы стали им неинтересны." speaker="2" />
+        <Conversation line="Нет причин полагать, что нас забыли. Однако, подозреваю что привязанности к нам они не чувствуют." speaker="2" speakertags="philosophical" />
+        <Conversation line="Мы убежали под лёд как отшельники. Я бы удивился если б они вообще помнили, что на этом водяном шарике вообще есть люди." speaker="2" />
       </Conversation>
     </Conversation>
   </Conversation>
-  <Conversation line="Я ненавижу как Коалиция лодки классифицирует." speaker="0" maxintensity="0.4">
-    <Conversation line="Ну слушай, любую подлодку можно усилить так, чтобы до самого дна доплыть!" speaker="0">
-      <Conversation line="Ну, за 30 000 марок-то конечно. Грабёж!" speaker="0">
-        <Conversation line="У них была на то веская причина. Улучшенные Барсуки взрываются как миленькие, теперь их Взрывуками называют." speaker="1">
-          <Conversation line="Погоди, это не про секс?" speaker="2" />
-          <Conversation line="Я думаю это потому что их капитаны любят оргии..." speaker="2" />
-          <Conversation line="Хех... Взрывуки." speaker="2" speakertags="joker" />
-          <Conversation line="Мне однажды предложили сделать Взрывуку в туалете, знал бы я что это целая подлодка!" speaker="2" />
+  <Conversation line="Я ненавижу эту новую, грёбанную, систему уровней для подлодок. Коалиция..." speaker="0" maxintensity="0.4">
+    <Conversation line="Старенькая подлодка с усиленным корпусом доплывёт куда-а угодно!" speaker="0">
+      <Conversation line="Но теперь... Нужно заплатить до 30 тысяч! До 30 тысяч чтобы просто опуститься на глубину!" speaker="0">
+        <Conversation line="И по хорошей причине. Прокачанный Барсук недавно взорвался. Поэтому и Бумсуками и называют." speaker="1">
+          <Conversation line="Стоп, я думал это грязная шутка!?" speaker="2" />
+          <Conversation line="Я думал это потому что... Капитаны Борсуков устраивали водные оргии." speaker="2" />
+          <Conversation line="Хех... Бумсука." speaker="2" speakertags="joker" />
+          <Conversation line="Мне в туалете предложили Бумсуку, знал бы я что это целая подлодка, обязательно бы согласился!" speaker="2" />
         </Conversation>
       </Conversation>
     </Conversation>
     <Conversation line="Всё ради безопасности." speaker="1">
-      <Conversation line="Да разве Коалиции на безопасность не всё равно? Не придумывай, им лишь бы карманы наполнить." speaker="0">
-        <Conversation line="В чём бы не была причина, лучше к ним прислушиваться." speaker="2" allowedjobs="captain" />
-        <Conversation line="Хорошо, ладно... Признаюсь, ты дебил полный." speaker="2" speakertags="rude" />
-        <Conversation line="Они тебе жизнь спасают, а ты так..." speaker="1" />
-        <Conversation line="Ну, удачи тебе на первоуровневой подлодке в вулканах..." speaker="1" />
+      <Conversation line="Да разве Коалиции не всё равно на безопасность? Будем честны, они просто наполняют свои карманы." speaker="0">
+        <Conversation line="Как бы то ни было, я буду придерживаться этих уровней." speaker="2" allowedjobs="captain" />
+        <Conversation line="Ладно, буду честен. Ты конкретный дебилойд, вот моя честность." speaker="2" speakertags="rude" />
+        <Conversation line="Они тебя защищают..." speaker="1" />
+        <Conversation line="Если ты и правда хочешь отправиться в глубины на своей подлодке первого уровня... Шлюз всегда открыт." speaker="1" />
       </Conversation>
-      <Conversation line="Безопасность!? Чуток денег и даже старая Дюгонь может до Вулканов добраться!" speaker="0">
-        <Conversation line="Каким надо быть идиотом чтобы на Дюгони туда плыть?" speaker="2 " />
-        <Conversation line="Ключевое слово - может. Не значит, что кто-то таким идиотизмом будет заниматься." speaker="2" />
-        <Conversation line="Деньги в воду. Дешевле будет новую подлодку купить." speaker="2" />
+      <Conversation line="Безопасность?! Ржавая Дюгонь спокойно доплывёт до Гидротермальных пустошь! " speaker="0">
+        <Conversation line="Никто в своём уме её туда не поведёт." speaker="2 " />
+        <Conversation line="Ключевое слово &quot;доплывёт.&quot; Но никто её туда не поведёт." speaker="2" />
+        <Conversation line="Деньги которые на это уйдут того не стоят. Намного эффективнее купить подлодку 2-го или 3-го уровня." speaker="2" />
         <Conversation line="Ты себя вообще слышишь?" speaker="2" />
       </Conversation>
     </Conversation>
-    <Conversation line="Да даже сепаратисты им следует. Учитывая, как они ненавидят Коалицию... Должна быть явная причина." speaker="1">
-      <Conversation line="Эх... Имеет смысл..." speaker="0" />
-      <Conversation line="Серьёзно? Сепаратисты?" speaker="0" />
-      <Conversation line="Ну, теперь и они мне не по душе." speaker="0" />
+    <Conversation line="Даже Сепаратисты по ней работают. Учитывая насколько они ненавидят Коалицию... я думаю оно говорит само за себя." speaker="1">
+      <Conversation line="Грм... В чём-то ты прав..." speaker="0" />
+      <Conversation line="Сепаратисты? Серьёзно?" speaker="0" />
+      <Conversation line="Ну, значит теперь в возможных союзниках у меня только клоуны." speaker="0" />
       <Conversation line="" speaker="0" flags="Casual" />
     </Conversation>
   </Conversation>
-  <Conversation line="Is that mold growing on the wall there?" speaker="0" maxintensity="0.4">
-    <Conversation line="Shit... ballast flora?!" speaker="1" speakertags="fearful">
-      <Conversation line="I'd have noticed if it was ballast flora." speaker="0" />
-      <Conversation line="It's definitely not ballast flora." speaker="0" />
-      <Conversation line="I look pretty unroasted, so I'm sure it isn't ballast flora." speaker="0" speakertags="joker,laid-back" />
-      <Conversation line="Trust me, if it was ballast flora, I'd know." speaker="0" allowedjobs="mechanic" />
+  <Conversation line="Эт на стене чёрная плесень?" speaker="0" maxintensity="0.4">
+    <Conversation line="Чёрт... Балластная флора?!" speaker="1" speakertags="fearful">
+      <Conversation line="Была бы флора, я бы так и сказал." speaker="0" />
+      <Conversation line="Это явно не флора." speaker="0" />
+      <Conversation line="Я не выгляжу как после чумы, так что, наверное не флора." speaker="0" speakertags="joker,laid-back" />
+      <Conversation line="Поверь мне, была бы флора - я бы не спрашивал." speaker="0" allowedjobs="mechanic" />
     </Conversation>
-    <Conversation line="Ew. Someone get the sprayer." speaker="1">
-      <Conversation line="Nose goes." speaker="0">
-        <Conversation line="What the- hey! Fuck." speaker="2" />
-        <Conversation line="No way you just said that." speaker="1" />
-        <Conversation line="What's that mean?" speaker="2">
-          <Conversation line="It was an old Earth game for picking who did something." speaker="0" />
-          <Conversation line="Nevermind." speaker="0" />
-          <Conversation line="You don't know? Well... I guess you're doing the sprayer job then." speaker="0" />
+    <Conversation line="Фу. Кто-нить, принесите распылитель." speaker="1">
+      <Conversation line="Чур не я." speaker="0">
+        <Conversation line="Что з... Эй! Сук." speaker="2" />
+        <Conversation line="Ты же не серьёзно?" speaker="1" />
+        <Conversation line="Что это значит?" speaker="2">
+          <Conversation line="Это глупая игра с Земли, кто последний скажет эту фразу, тот и должен сделать дело." speaker="0" />
+          <Conversation line="Забудь." speaker="0" />
+          <Conversation line="А, ты не знаешь?... Ну, тогда как раз ты и займёшься распылителем." speaker="0" />
         </Conversation>
-        <Conversation line="What that mean?" speaker="2" speakertags="brokenenglish">
-          <Conversation line="It was an old Earth game for picking who did something." speaker="0" />
-          <Conversation line="Nevermind." speaker="0" />
-          <Conversation line="You don't know? Well... I guess you're doing the sprayer job then." speaker="0" />
+        <Conversation line="Что эта значет?" speaker="2" speakertags="brokenenglish">
+          <Conversation line="Это глупая игра с Земли. Кто последний скажет эту фразу, тот и должен сделать дело." speaker="0" />
+          <Conversation line="Забудь." speaker="0" />
+          <Conversation line="А, ты не знаешь?... Ну, тогда как раз ты и займёшься распылителем." speaker="0" />
         </Conversation>
       </Conversation>
-      <Conversation line="I don't know if the sprayer gets rid of mold..." speaker="0">
-        <Conversation line="It's the sprayer. It gets rid of anything." speaker="1" />
-        <Conversation line="If you don't want to do it, you can just say so." speaker="1" />
-        <Conversation line="Time to find out." speaker="1" />
-        <Conversation line="Never know if you don't try." speaker="1" />
+      <Conversation line="Не уверен что он избавится от плесени..." speaker="0">
+        <Conversation line="Да чё ты, он от всего избавляется." speaker="1" />
+        <Conversation line="Если не хочешь, так и скажи." speaker="1" />
+        <Conversation line="Самое время узнать так ли это." speaker="1" />
+        <Conversation line="Не узнаешь если не попробуешь." speaker="1" />
       </Conversation>
     </Conversation>
-    <Conversation line="It's an artistic garden decoration." speaker="1" speakertags="crazy">
-      <Conversation line="It's mold." speaker="0">
-        <Conversation line="Respect the blessing of the gods or starve!" speaker="1" />
-        <Conversation line="You have no eye for art." speaker="1" />
-        <Conversation line="A fool calls it mold, a genius calls it art." speaker="1" />
+    <Conversation line="Это украшение... Моего сада." speaker="1" speakertags="crazy">
+      <Conversation line="Плесень." speaker="0">
+        <Conversation line="Благодари Богов за подарок или сгинь!" speaker="1" />
+        <Conversation line="Ты не способен видить настоящее искусство." speaker="1" />
+        <Conversation line="Для одного мусор, для другого - золото." speaker="1" />
       </Conversation>
-      <Conversation line="The hell does that mean?" speaker="2" />
-      <Conversation line="Someone put it in a planter box!" speaker="2" speakertags="crazy,joker" />
-      <Conversation line="Of course you're the one to say something like that..." speaker="2" />
+      <Conversation line="Что это, сука, значит?" speaker="2" />
+      <Conversation line="Кто-нибудь, принесите горшок!" speaker="2" speakertags="crazy,joker" />
+      <Conversation line="Конечно, только такого я от тебя и ожидал." speaker="2" />
     </Conversation>
-    <Conversation line="Probably an old vomit stain." speaker="1">
-      <Conversation line="Gross." speaker="0" />
-      <Conversation line="Either way, someone clean that up." speaker="0" />
-      <Conversation line="I honestly hope it's mold and not a vomit stain." speaker="0" />
+    <Conversation line="Наверное пятно блевотины." speaker="1">
+      <Conversation line="Мерзость." speaker="0" />
+      <Conversation line="Как бы то ни было, здесь стоит убраться." speaker="0" />
+      <Conversation line="Всё таки надеюсь что это плесень, а не... Блевотина." speaker="0" />
       <Conversation line="" speaker="0" flags="Casual" />
     </Conversation>
   </Conversation>
-  <Conversation line="Both the Coalition and Separatists are starting to block off passageways to the deeper biomes..." speaker="0" maxintensity="0.4">
-    <Conversation line="Have you seen the rates they charge for crews who don't show loyalty?" speaker="1">
-      <Conversation line="They mask it with the cover of protecting us." speaker="0">
-        <Conversation line="If they wanted to protect us, they wouldn't take bribes." speaker="1" />
-        <Conversation line="That mask isn't holding." speaker="1" />
-        <Conversation line="A dangerous lie to peddle with all that radiation." speaker="1" />
-        <Conversation line="I don't know a single soul who got fooled by that lie." speaker="1" />
+  <Conversation line="И Коалиция, и Сепары теперь блокируют проходы в глубокие биомы..." speaker="0" maxintensity="0.4">
+    <Conversation line="Вы слышали какие деньжища они берут с тех кто к ним не лоялен?" speaker="1">
+      <Conversation line="А потом делают вид, что это всё ради нашей же безопасности." speaker="0">
+        <Conversation line="Если б хотели нас защитить, не брали бы взятки." speaker="1" />
+        <Conversation line="Скоро всё вскроется." speaker="1" />
+        <Conversation line="Опасно о таком врать... Учитывая нынешние уровни радиации." speaker="1" />
+        <Conversation line="Я не знаю ни одного человека, кто бы в это поверил." speaker="1" />
       </Conversation>
-      <Conversation line="I have. It's not pretty." speaker="0">
+      <Conversation line="Слышал. Не маленькие деньги." speaker="0">
         <Conversation line="We better pick one to curry favor with." speaker="1" />
         <Conversation line="Money that could be better spent on our survival." speaker="1" />
         <Conversation line="Funny how the Separatists preach freedom but do the same autocratic control..." speaker="1" />
@@ -3978,7 +3981,7 @@
       </Conversation>
       <Conversation line="But have you tried it?" speaker="2">
         <Conversation line="Yes I have." speaker="1" />
-        <Conversation line="I doubt he's tried much of anything, man's so rigid he may as well be a fucking statue." speaker="3" speakertags="rude,supremacist,nihilist,tough,joker" />
+        <Conversation line="I doubt they've tried much of anything, man's so rigid they may as well be a fucking statue." speaker="3" speakertags="rude,supremacist,nihilist,tough,joker" />
         <Conversation line="Of course I have. Many nights of drinking myself to sleep." speaker="1" />
         <Conversation line="I don't waste money on it." speaker="1" />
       </Conversation>
@@ -4184,7 +4187,6 @@
       <Conversation line="50 years in this hellhole... makes me sick just thinking about it." speaker="2" speakertags="nihilist" />
     </Conversation>
   </Conversation>
-  <!-- New 9 of July -->
   <Conversation line="A week ago I heard a strange story. A captain bought a submarine that was already infested with Ballast Flora!" speaker="0">
     <Conversation line="That evokes some mysterious and puzzling insights..." speaker="1" speakertags="philosophical">
       <Conversation line="How are these new submarines sourced that would allow such an infection to occur on shipment? Quite the mystery..." speaker="1" />
@@ -4277,32 +4279,6 @@
       </Conversation>
     </Conversation>
   </Conversation>
-  <Conversation line="My shipment of ballast flora spores got impounded by Coalition customs." speaker="0" speakertags="crazy">
-    <Conversation line="That much ballast flora looks suspicious though, doesn't it?" speaker="1">
-      <Conversation line="Hold on, are you trying to make a bioweapon out of the gas?" speaker="1">
-        <Conversation line="What? Nooooo. Even the Europan advises against that." speaker="0">
-          <Conversation line="...Security better be watching you." speaker="1" />
-        </Conversation>
-      </Conversation>
-    </Conversation>
-    <Conversation line="Good." speaker="1">
-      <Conversation line="Not good, bad! Very bad!" speaker="0">
-        <Conversation line="I don't trust you with ballast flora spores." speaker="1" />
-        <Conversation line="Good because this ship with ballast flora spores sounds like a nightmare." speaker="1" />
-        <Conversation line="Right, not good... it's actually great." speaker="1" />
-      </Conversation>
-    </Conversation>
-    <Conversation line="I only got two tiny bags handed back, the rest were refunded." speaker="0">
-      <Conversation line="I'm surprised you even got a refund." speaker="1" />
-    </Conversation>
-    <Conversation line="We will not be having ballast flora spores on this submarine at any point." speaker="1" allowedjobs="captain">
-      <Conversation line="Not even for simple gardening pleasures?" speaker="0">
-        <Conversation line="Simple gardening does not require that many spores." speaker="1" />
-        <Conversation line="Grow tobacco instead. At least then we can make some money." speaker="1" />
-        <Conversation line="No. Too dangerous." speaker="1" />
-      </Conversation>
-    </Conversation>
-  </Conversation>
   <Conversation line="That ”Prophet of Sierpinsk” fellow. You think he's right?" speaker="0">
     <Conversation line="Honestly? I do." speaker="1">
       <Conversation line="To each their own, he sounds like a crazy hobo to me." speaker="2" />
@@ -4320,7 +4296,7 @@
     </Conversation>
     <Conversation line="The radiation is forcing us to the eye anyway. We'll find out if he's crazy or right soon enough." speaker="1">
       <Conversation line="If we're lucky he's crazy, not the other way around..." speaker="2" />
-      <Conversation line="I'm not excited to find out the truth..." speaker="2" speakertags="crazy" />
+      <Conversation line="I'm not excited to find out the truth..." speaker="2" />
       <Conversation line="It must be hell down there... I don't know if we're cut out for it." speaker="0">
         <Conversation line="I don't know either." speaker="1" />
         <Conversation line="I believe in us." speaker="2" speakertags="survivor,optimist" />
@@ -4340,7 +4316,7 @@
       <Conversation line="Me neither." speaker="2" />
       <Conversation line="I don't know him that well, I only read about him on the Europan." speaker="0">
         <Conversation line="He talks about the mysterious eye of Europa and stuff. It's all really weird." speaker="0" />
-        <Conversation line="Guy's a real nutcase... but he might be a correct nutcase, to be honest." speaker="0" speakertags="conspiracist,rude,nihilist" />
+        <Conversation line="Guy's a real nutcase... but he might be a correct nutcase to be honest." speaker="0" speakertags="conspiracist,rude,nihilist" />
       </Conversation>
     </Conversation>
   </Conversation>
@@ -4614,7 +4590,7 @@
           </Conversation>
           <Conversation line="I think that was it." speaker="0">
             <Conversation line="Asshole thing to say, ain't it?" speaker="1" />
-            <Conversation line="Yeah. What a rude saying." speaker="1" />
+            <Conversation line="What a rude saying." speaker="1" />
             <Conversation line="No, I'm misremembering. All work, no gay doesn't make any sense..." speaker="1" />
           </Conversation>
         </Conversation>
@@ -4686,6 +4662,270 @@
       <Conversation line="I always do, I never get a good night's sleep. If I sleep at all." speaker="0" />
     </Conversation>
   </Conversation>
+  <Conversation line="My old captain had us swing by Archimedes Linea for a supply run. She came back fully clownified by the Europan Jesters' Union." speaker="0">
+    <Conversation line="You should have expected that when you docked at the headquarters for the EJU." speaker="1">
+      <Conversation line="That's their headquarters? That explains a ton then." speaker="0">
+        <Conversation line="Yeah, it is. I read about it in the Europan." speaker="1" />
+        <Conversation line="Have we passed by an Archimedes Linea, actually...?" speaker="0" />
+        <Conversation line="I went there once. So many rubber shoe sounds." speaker="2" />
+      </Conversation>
+      <Conversation line="I know, I know. Maybe she even wanted it." speaker="0">
+        <Conversation line="Who knows? Not us, that's for sure." speaker="1">
+          <Conversation line="She takes her secrets with her, I suppose." speaker="0" />
+          <Conversation line="" speaker="0" flags="Casual" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="Well, we fired her after. I think she joined up with a traveling circus." speaker="0">
+        <Conversation line="The only fun part of a circus was the ethanol chugging clown. I saw one that drank 26 bottles one time." speaker="2" />
+        <Conversation line="My favorite circus was the sinking circus at Delphi Flexus." speaker="2">
+          <Conversation line="I went there before! It was more like a band but they were pretty talented." speaker="0" />
+          <Conversation line="They held true to their name, that's all I'll say about that." speaker="2" />
+        </Conversation>
+        <Conversation line="You fired your captain? That requires a lot of paperwork..." speaker="1">
+          <Conversation line="Yep, she was burnt to a crisp." speaker="0">
+            <Conversation line="Oh... you meant like that." speaker="1" />
+            <Conversation line="That's not- ohhh. I get it now." speaker="1" />
+            <Conversation line="I guess that skips the paperwork..." speaker="1" />
+          </Conversation>
+          <Conversation line="It took us a few days, it wasn't very fun having to wait on a station with bike horns blaring every night." speaker="0">
+            <Conversation line="She left with more bruises on her medical record than we originally signed..." speaker="0" />
+            <Conversation line="The mechanic tried to deconstruct it but the deconstructor didn't work on it, for some reason." speaker="0" />
+            <Conversation line="I remember the doctor went into her room with a syringe on the final night. I didn't see her step out the next morning, so..." speaker="0" />
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Assimilated by something far inferior..." speaker="1" speakertags="cultist,supremacist">
+      <Conversation line="" speaker="1" speakertags="cultist">
+        <Conversation line="I agree. At least you culties have a good opinion for once." speaker="2" speakertags="supremacist">
+          <Conversation line="Excuse me? Culties?!" speaker="1" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="" speaker="1" speakertags="supremacist">
+        <Conversation line="Exactly! Finally a good opinion from a meat sack." speaker="2" speakertags="cultist">
+          <Conversation line="What the hell did you just call me?" speaker="1" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="Assimilated?" speaker="2" speakertags="brokenenglish">
+        <Conversation line="It basically means converted or changed into something." speaker="0" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="Was she at least funny?" speaker="1" speakertags="joker,laid-back">
+      <Conversation line="All she did was honk a bike horn and laugh hysterically." speaker="0">
+        <Conversation line="Jeez, someone needs better material!" speaker="1" />
+        <Conversation line="That sounds maddening." speaker="2" />
+        <Conversation line="I really do wonder why it's so funny to them..." speaker="0" />
+      </Conversation>
+      <Conversation line="Not really. Most of her jokes were about a crawler crossing the road." speaker="0">
+        <Conversation line="We don't even have roads on Europa." speaker="0" />
+        <Conversation line="It got old pretty fast." speaker="0">
+          <Conversation line="I'd imagine." speaker="2" />
+          <Conversation line="Sure sounds unfunny too." speaker="1" />
+        </Conversation>
+        <Conversation line="Her jokes couldn't save her from the day a real crawler crossed the road into our submarine though." speaker="0">
+          <Conversation line="Oddly enough, the picture of her screaming crawler jokes at a crawler while she's torn apart is funny to me." speaker="2" />
+          <Conversation line="She tried telling jokes when a crawler was eating her? She really must have gone mad." speaker="1" />
+          <Conversation line="I guess she really did find out why he crossed the road in the end." speaker="1" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="She threw a pie at the assistant once." speaker="0">
+        <Conversation line="I thought it was funny but then it turns out the pie was a bomb. So he blew up." speaker="0">
+          <Conversation line="Captain got shot dead by security shortly after." speaker="0" />
+          <Conversation line="How the hell did she even manage to make a pie bomb?" speaker="2" />
+          <Conversation line="Oh... that's morbid." speaker="1" />
+          <Conversation line="Great, now I'll be dreaming of exploding pies tonight." speaker="2" allowedjobs="assistant" />
+        </Conversation>
+        <Conversation line="I might have to steal that idea actually." speaker="1">
+          <Conversation line="Do not throw pies at your crewmates. Cannot believe I have to say that." speaker="2" speakertags="professional" />
+          <Conversation line="If you throw a pie at me I'm going to fucking kill you." speaker="2" speakertags="rude,nihilist,tough" allowedjobs="securityofficer" />
+          <Conversation line="Hate to burst your bubble but this sub doesn't have a kitchen to make a pie." speaker="2" />
+          <Conversation line="I'd prefer if you made a pie for eating, thanks." speaker="2" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="The Honkmother guides her lost lambs ashore." speaker="1" speakertags="crazy">
+      <Conversation line="Proselytism results in fanatical devotion even in the face of callousness." speaker="2" speakertags="philosophical">
+        <Conversation line="C4 is but a piece of the puzzle to laughter. Callous, it is not." speaker="1">
+          <Conversation line="I'd really appreciate it if you two spoke english." speaker="3" />
+        </Conversation>
+        <Conversation line="Huh?" speaker="0">
+          <Conversation line="Nevermind." speaker="2" />
+          <Conversation line="Converting people usually ends up with them being crazily devoted to their cause, even if their tactics are cruel or mean." speaker="2" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="I liked her better as a non-clown to be honest." speaker="0">
+        <Conversation line="How judgemental." speaker="1">
+          <Conversation line="You'd be too if you've seen all the shit clowns have pulled." speaker="0" />
+          <Conversation line="Clowns are the only people trying to blow me up with a glitter bomb." speaker="0" />
+          <Conversation line="It's not judgemental, it's my opinion. That's all there is to it." speaker="0" />
+        </Conversation>
+        <Conversation line="I would too. Clowns scare me..." speaker="2" speakertags="fearful">
+          <Conversation line="Clowns are weird, that's for sure." speaker="0" />
+          <Conversation line="Do not be afraid, we will all laugh together one day." speaker="1" />
+          <Conversation line="It's alright, no clowns will be getting on this ship!" speaker="3" speakertags="optimist" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="The hell does that mean?" speaker="0">
+        <Conversation line="Those blessed by her light would understand her plight!" speaker="1">
+          <Conversation line="I don't know why I expected you to elaborate in any way that made sense." speaker="0" />
+          <Conversation line="I don't know, even I don't find blowing up people that funny..." speaker="2" speakertags="joker" />
+          <Conversation line="So be baptized by her warm laughter. It is the best medicine as they say." speaker="1" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Coincidentally, our security officer misfired a bullet into her skull." speaker="0">
+      <Conversation line="Honest to god misfire, he slipped on a banana peel and his gun went flying. Happened to let loose a round into her brain. Doc didn't bother saving her." speaker="0">
+        <Conversation line="I wouldn't save her either frankly." speaker="1" />
+        <Conversation line="Fitting for any lowlife clown." speaker="1" speakertags="supremacist" />
+        <Conversation line="Man, sometimes I feel bad about those poor clowns. At least until I remember them blowing up submarines with C4." speaker="1" />
+      </Conversation>
+      <Conversation line="Yeah, misfire... more like execution." speaker="1">
+        <Conversation line="I didn't see it, all I know is what he said about it." speaker="0" />
+        <Conversation line="I know, I know. It still looks bad on his records if he killed his captain intentionally though." speaker="0" />
+        <Conversation line="Think of it how you want but you weren't there were you?" speaker="0">
+          <Conversation line="" speaker="0" flags="Casual" />
+          <Conversation line="Touche." speaker="1" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="She'll be dearly missed. Her non-clown self will be, anyway." speaker="0" />
+      <Conversation line="I'd do the same thing too. Clowns only cause serious trouble." speaker="1" allowedjobs="securityofficer">
+        <Conversation line="You've really got to separate the antagonistic ones from the harmless ones. Harmless ones aren't so bad." speaker="2">
+          <Conversation line="" speaker="0" flags="Casual" />
+          <Conversation line="There aren't many harmless clowns." speaker="1" />
+          <Conversation line="Until you slip on a banana when you're fighting a mudraptor and get mauled to bits." speaker="1" />
+          <Conversation line="Honking horns every few seconds would make me psychotic enough to shoot them dead on the spot." speaker="1" />
+        </Conversation>
+        <Conversation line="Agreed." speaker="2" />
+        <Conversation line="I mean, they can be pretty funny..." speaker="2" speakertags="optimist,laid-back,joker">
+          <Conversation line="" speaker="0" flags="Casual" />
+          <Conversation line="I love their husk egg act!" speaker="3" speakertags="cultist" />
+          <Conversation line="Yes. The Honkmother provides laughs and lamentation in equal measure." speaker="3" speakertags="crazy" />
+          <Conversation line="When they aren't trying to kill you or being outright annoying." speaker="1" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Before I joined up with you all, I actually had a reading from MMMPMM..." speaker="0">
+    <Conversation line="A bedtime one, actually. It was nice." speaker="0">
+      <Conversation line="Hah! Sissy!" speaker="1" speakertags="tough">
+        <Conversation line="Tough shells have the softest insides." speaker="2" speakertags="crazy,philosophical">
+          <Conversation line="U-uhm, what are you saying...?" speaker="1" />
+          <Conversation line="What's that supposed to mean man...?!" speaker="1" />
+        </Conversation>
+        <Conversation line="I'd rather be called a sissy than sleep like shit again." speaker="0">
+          <Conversation line="Hah! That's... well, you know what? If it helped, it helped man. Even if you're a sissy for doing it." speaker="1" />
+          <Conversation line="Awww, want us to read you a bedtime story too little baby? Hahaha!" speaker="1" />
+        </Conversation>
+        <Conversation line="I meant it was a bedtime fortune reading, don't jump to conclusions, christ." speaker="0">
+          <Conversation line="Oh, sorry." speaker="1" />
+          <Conversation line="The way you worded it sounded like a bedtime story reading..." speaker="1" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="Like an actual bedtime story?" speaker="1">
+        <Conversation line="Yeah... don't look at me all weird now. It was the best sleep I've had in years." speaker="0">
+          <Conversation line="Whatever floats your boat." speaker="1" />
+          <Conversation line="If you say so..." speaker="1" />
+        </Conversation>
+        <Conversation line="No, a reading before I sleep. That's what I meant." speaker="0">
+          <Conversation line="Ah. Well, at least it went well for you." speaker="1" />
+          <Conversation line="Darn, I was hoping you'd say yes. I haven't had a good night's rest in months..." speaker="1" />
+        </Conversation>
+        <Conversation line="Mhm-hm. They read very softly, I woke up without my usual pain." speaker="0">
+          <Conversation line="Sounds like some sort of crazy spell..." speaker="1" />
+          <Conversation line="I'm happy to hear that, good for you." speaker="2" speakertags="laid-back,optimist" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="That's so childish." speaker="1">
+        <Conversation line="I know but... it was worth it, honestly." speaker="0" />
+        <Conversation line="Hey, it's better than sleeping like shit." speaker="0" />
+        <Conversation line="You'll know how it really feels when it happens to you." speaker="0" />
+      </Conversation>
+      <Conversation line="Was it relaxing?" speaker="1">
+        <Conversation line="Very. I still remember how relaxed I was, I kind of... miss it, honestly." speaker="0" />
+        <Conversation line="It was weird but yeah. I managed to relax with it after awhile." speaker="0" />
+        <Conversation line="Not really, the book she read me sounded like an eldritch summoning ritual." speaker="0" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="They said I have good fortune in my future!" speaker="0" speakertags="survivor,tough,optimist,laid-back,professional">
+      <Conversation line="Did she give anything more than that?" speaker="1">
+        <Conversation line="Yeah, she said I'll be swarmed with minerals and marks." speaker="0">
+          <Conversation line="Well that's good." speaker="1" />
+          <Conversation line="A bunch of minerals falling on you sounds more like a curse..." speaker="1" />
+          <Conversation line="I hope so, I want more fabrication equipment." speaker="2" speakertags="mechanic" />
+        </Conversation>
+        <Conversation line="She says I'll live a long and fruitful life to the ripe old age of 40." speaker="0">
+          <Conversation line="40? Damn, that's a long time." speaker="1" />
+          <Conversation line="So you're not going to die on this boat? That's a shame, I planned on claiming your life insurance policy." speaker="2" speakertags="rude" />
+          <Conversation line="Wow, hopefully that comes true for you." speaker="1" />
+        </Conversation>
+        <Conversation line="Nope." speaker="0">
+          <Conversation line="I... see." speaker="1" />
+          <Conversation line="This is sounding more and more like you got scammed, man." speaker="1" />
+          <Conversation line="Uhh... good for you then?" speaker="1" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="She probably said that because you paid well." speaker="1" speakertags="nihilist">
+        <Conversation line="I didn't pay at all, I left when she was done and got attacked by security." speaker="0">
+          <Conversation line="Oh." speaker="1" />
+        </Conversation>
+        <Conversation line="No way, I only tipped 10%." speaker="0">
+          <Conversation line="You tipped her? Sorry to say but you got scammed." speaker="2" />
+          <Conversation line="Psychic powers don't exist, nothing mystical does. You wasted your money." speaker="1" />
+        </Conversation>
+        <Conversation line="I believe her, frankly. At least I want to believe her." speaker="0" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="They said they see a bad future ahead of me." speaker="0" speakertags="crazy,conspiracist,rude,nihilist">
+      <Conversation line="Knowing you I'd believe that." speaker="1">
+        <Conversation line="Oh piss off, it won't happen anyway." speaker="0" speakertags="rude,nihilist" />
+        <Conversation line="So you're in cahoots with them, are you...?" speaker="0" speakertags="crazy,conspiracist" />
+        <Conversation line="What's that supposed to mean?" speaker="0" />
+      </Conversation>
+      <Conversation line="We'll prove that charlatan wrong, don't worry." speaker="1" speakertags="nihilist,rude,professional,survivor,tough,optimist">
+        <Conversation line="Thanks." speaker="0" />
+        <Conversation line="I sure hope so." speaker="0" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="Madame Madrigal is a con artist. Psychic powers are a load of bull man." speaker="1">
+      <Conversation line="But she knew exactly what I was thinking!" speaker="0">
+        <Conversation line="Because you're an open book. I bet you're thinking about never having to work again right now." speaker="1">
+          <Conversation line="How did you...?!" speaker="0" />
+          <Conversation line="W-wait, am I really that much of an open book...?" speaker="0" />
+          <Conversation line="No way, you're psychic too?!" speaker="0" />
+          <Conversation line="Who isn't thinking about that though?" speaker="2" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="With all the weird alien shit on this moon, I think it's possible." speaker="0">
+        <Conversation line="Well Madame Madrigal isn't an alien, so..." speaker="1">
+          <Conversation line="Maybe she stumbled upon some alien power, I don't know." speaker="0" />
+          <Conversation line="My guess is she just needs a dose of Haloperidol." speaker="2" allowedjobs="medicaldoctor" />
+          <Conversation line="I was more so saying that psychic powers wouldn't surprise me with all the weird stuff going on around Europa." speaker="0" />
+        </Conversation>
+        <Conversation line="To each their own I guess." speaker="1" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="What kind of abbreviation is that?" speaker="1">
+      <Conversation line="That was an abbreviation? I thought they were hungry and thinking about food." speaker="2">
+        <Conversation line="That or they were touching th-" speaker="1">
+          <Conversation line="DO NOT GO THERE!" speaker="0" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="Madame Madrigal's Mystery Parlor of Mostly Mysteries." speaker="0">
+        <Conversation line="That's way too long. Aren't abbreviations supposed to shorten things?" speaker="1">
+          <Conversation line="I guess she didn't get the memo." speaker="2" />
+          <Conversation line="Well it did shorten how many words that would have been normally..." speaker="0" />
+          <Conversation line="Yeah but... whatever. I had a good reading, okay?" speaker="0" />
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <!-- Submarine Deep -->
+  <Conversation line="I hate going this deep." speaker="0" flags="SubmarineDeep">
+    <Conversation line="I intend to make it through here with all heads accounted for." speaker="1" allowedjobs="captain">
+      <Conversation line="Bodies don't count, captain." speaker="2" speakertags="joker,fearful,rude,nihilist,survivor,professional" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="How the hell can you see anything this far down?" speaker="0" flags="SubmarineDeep" />
   <!-- Mission Start -->
   <Conversation line="Perhaps this is the mission our fabled ascension takes place." speaker="0" flags="Initial" speakertags="cultist">
     <Conversation line="Someone crash this fucking ship before that happens." speaker="1" speakertags="rude,supremacist,nihilist" />
@@ -4703,7 +4943,7 @@
       <Conversation line="Sheesh, lay off. You can just ask me to stop." speaker="0" />
     </Conversation>
     <Conversation line="I wonder if we'll hit 0 before this mission is over..." speaker="1">
-      <Conversation line="Hope so. The less time spent here the better." speaker="2" />
+      <Conversation line="Hope not. The less time spent here the better." speaker="2" />
       <Conversation line="I'll probably strangle them before they hit 0 if they keep this shit up." speaker="2" speakertags="rude,supremacist,professional,nihilist" />
       <Conversation line="Time to find out." speaker="0" />
       <Conversation line="This journey certainly isn't going to be a walk in the park." speaker="2">
@@ -4868,7 +5108,6 @@
     <Conversation line="I'll see to it, captain." speaker="1" />
   </Conversation>
   <!-- Entering Outpost -->
-  <!-- New -->
   <Conversation line="Well isn't this a cute little place." speaker="0" flags="EnterOutpost">
     <Conversation line="I've seen much better." speaker="1" speakertags="rude,cultist" />
     <Conversation line="Right? So quaint." speaker="1" />
@@ -4876,7 +5115,7 @@
     <Conversation line="Not nearly enough Coalition posters or insignia for my tastes." speaker="1" speakertags="loyalist" />
     <Conversation line="" speaker="0" flags="Casual" />
   </Conversation>
-  <Conversation line="Hmm... not bad." speaker="0" flags="EnterOutpost">
+  <Conversation line="Hmm... not bad for an outpost." speaker="0" flags="EnterOutpost">
     <Conversation line="I'm actually a bit impressed. Until I inevitably find the dark, drab cultist room that is." speaker="0" />
     <Conversation line="Yes... it's too not bad. Something is fishy about this station, perhaps it's a human meat factory?" speaker="1" speakertags="conspiracist" />
     <Conversation line="As always, human design radiates strength and effectiveness." speaker="1" speakertags="supremacist" />
@@ -4890,12 +5129,12 @@
     <Conversation line="Agreed." speaker="1" />
     <Conversation line="" speaker="0" flags="Casual" />
   </Conversation>
-  <Conversation line="Think we can splurge a bit here, captain?" speaker="0" flags="EnterOutpost">
+  <Conversation line="Think we can splurge a bit here, captain?" speaker="0" flags="EnterOutpost" allowedjobs="assistant,mechanic,engineer,medicaldoctor,securityofficer">
     <Conversation line="We'll see what they're offering." speaker="1" allowedjobs="captain" />
     <Conversation line="Spend your own money." speaker="1" allowedjobs="captain" />
     <Conversation line="Hmm.. depends on what's on sale..." speaker="1" allowedjobs="captain" />
   </Conversation>
-  <Conversation line="Pick me up some crafting materials if you can." speaker="0" flags="EnterOutpost" allowedjobs="mechanic" />
+  <Conversation line="Pick me up some crafting materials here if you can." speaker="0" flags="EnterOutpost" allowedjobs="mechanic" />
   <Conversation line="Remember to stock up on more medicine!" speaker="0" flags="EnterOutpost" allowedjobs="medicaldoctor" />
   <Conversation line="Don't forget to buy more fuel rods this time." speaker="0" flags="EnterOutpost" allowedjobs="engineer" />
   <Conversation line="Alright crew, stretch your legs a bit. We'll get going later." speaker="0" flags="EnterOutpost" allowedjobs="captain">
@@ -4991,7 +5230,7 @@
       <Conversation line="Ignoring the husk part, I think green wouldn't go well with the grey." speaker="2" />
       <Conversation line="Don't taint this outpost with your abhorrent philosophy." speaker="2" speakertags="supremacist" />
       <Conversation line="No thanks." speaker="2" />
-      <Conversation line="Or ballast flora green." speaker="1" />
+      <Conversation line="Ballast flora green works too." speaker="1" />
       <Conversation line="" speaker="0" flags="Casual" />
     </Conversation>
     <Conversation line="Pink floors... with glitter... and a smiley face!" speaker="1" speakertags="optimist">
@@ -5009,6 +5248,82 @@
       <Conversation line="" speaker="0" flags="Casual" />
     </Conversation>
   </Conversation>
-  <!-- 189 Full Conversations -->
-  <!-- 31 One-line Conversations -->
+  <!-- New -->
+  <!-- Entering Outpost -->
+  <Conversation line="Smells like fried thresher in here." speaker="0" flags="EnterOutpost">
+    <Conversation line="I doubt it's really fried thresher, probably an overloaded junction box." speaker="1">
+      <Conversation line="I'll take a look around." speaker="2" allowedjobs="engineer" />
+      <Conversation line="Better inform the station administrator then." speaker="0" />
+      <Conversation line="If you do find a fried thresher stand though, I'll buy some." speaker="1" />
+    </Conversation>
+    <Conversation line="I thought Jupiter's Ascent wasn't for a while later." speaker="1">
+      <Conversation line="It's not. Are you sure you're not smelling a corpse?" speaker="2">
+        <Conversation line="I know what a corpse smells like. It's not a corpse." speaker="0" />
+      </Conversation>
+      <Conversation line="I don't track the date of that foolish event." speaker="2" speakertags="supremacist">
+        <Conversation line="Man, you're a real downer." speaker="1" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="We should get an oven to cook fried thresher on the sub." speaker="0">
+      <Conversation line="Denied." speaker="1" allowedjobs="captain" />
+      <Conversation line="That sounds way too expensive. Our money is better spent elsewhere." speaker="1" />
+      <Conversation line="I'm not dragging in a dead thresher corpse and neither is anyone else." speaker="1" />
+      <Conversation line="Mmm... now you're making me hungry." speaker="1" />
+      <Conversation line="I've heard too many stories about fires burning subs to a crisp to want anything that causes fire onboard." speaker="1" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Remember not to take the first door. That's the airlock." speaker="0" flags="EnterOutpost">
+    <Conversation line="Stations really need to stop putting it right there after the docking port, it's so confusing." speaker="1">
+      <Conversation line="I almost died one time because of that." speaker="1" />
+    </Conversation>
+    <Conversation line="Right, right. I almost forgot." speaker="1">
+      <Conversation line="Damn it, I wish you did forget." speaker="2" speakertags="crazy,rude" />
+    </Conversation>
+    <Conversation line="" speaker="0" flags="Casual" />
+  </Conversation>
+  <Conversation line="The lights outside were green instead of red, I believe that's a code word of some kind..." speaker="0" flags="EnterOutpost" speakertags="conspiracist">
+    <Conversation line="It's a code word alright, it means we're good to dock here. That's what it means." speaker="1">
+      <Conversation line="Or maybe that's what the Coalition wants us to think..." speaker="0">
+        <Conversation line="*sigh* Reasoning with you is impossible." speaker="1" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="How suspicious..." speaker="0" />
+  </Conversation>
+  <Conversation line="Respite from our plight, time away from the creatures of the night." speaker="0" flags="EnterOutpost" speakertags="philosophical">
+    <Conversation line="A poem by Lyre Celina Ryder." speaker="0">
+      <Conversation line="Thanks for the poem...?" speaker="1" />
+      <Conversation line="I really don't remember asking for a fucking recital." speaker="1" speakertags="rude,nihilist,tough" />
+    </Conversation>
+    <Conversation line="I didn't know you were a writer." speaker="1">
+      <Conversation line="I'm not. It's by Lyre Celina Ryder, two-time Coalition Creative Contest winner." speaker="0">
+        <Conversation line="I'm surprised they picked an author to win instead of some nutcase who made a bigger railgun that explodes when you use it." speaker="2" />
+        <Conversation line="Coalition Creative Contest? First time I'm hearing of that..." speaker="1" />
+      </Conversation>
+      <Conversation line="I dabble in writing but this poem isn't my own." speaker="0">
+        <Conversation line="I thought that was a haiku." speaker="2">
+          <Conversation line="No, a Haiku is actually-" speaker="0">
+            <Conversation line="That's not an excuse to talk my ear off about something I don't care about." speaker="2" />
+          </Conversation>
+        </Conversation>
+        <Conversation line="They've assisted me with medical write ups. Death reports as well." speaker="2" allowedjobs="medicaldoctor" />
+      </Conversation>
+    </Conversation>
+    <Conversation line="What?" speaker="1">
+      <Conversation line="Shakespeare means to say we're taking a break away from all the creatures." speaker="2">
+        <Conversation line="Oh, why didn't you just word it that way originally?" speaker="1" />
+        <Conversation line="Who the hell is shakespeare?" speaker="1" />
+        <Conversation line="Me? Shakespeare? What a high honor...!" speaker="0" />
+      </Conversation>
+      <Conversation line="I don't know either man. Let's just stock up on supplies." speaker="2" />
+    </Conversation>
+  </Conversation>
+  <!-- Final Level -->
+  <Conversation line="We're a long ways away from Kansas, Dorothy..." speaker="0" flags="EndLevel" />
+  <Conversation line="What the fuck...?" speaker="0" flags="EndLevel">
+    <Conversation line="What is going on outside?!" speaker="0" />
+    <Conversation line="I never knew the Eye of Europa was this... strange." speaker="0" />
+    <Conversation line="Are we even on Europa anymore?!" speaker="0" />
+  </Conversation>
+  <!-- 196 Full Conversations -->
+  <!-- 32 One-line Conversations -->
 </Conversations>
