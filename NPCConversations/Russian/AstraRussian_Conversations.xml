@@ -24,7 +24,7 @@
   <Conversation line="Я как будто на адреналине!" speaker="0" speakertags="tough" minintensity="0.4" maxintensity="0.5" />
   <Conversation line="Человечество может справиться с любой проблемой!" speaker="0" speakertags="supremacist" minintensity="0.4" maxintensity="0.5">
     <Conversation line="А хаски с любой-любой!" speaker="1" speakertags="cultist">
-      <Conversation line="Да чего вы всегда соритесь?!" speaker="2" speakertags="professional" />
+      <Conversation line="Да чего вы всегда ссоритесь?!" speaker="2" speakertags="professional" />
       <Conversation line="Можете оба закрыть свои грязные рты?!" speaker="2" speakertags="rude" />
     </Conversation>
   </Conversation>
@@ -37,7 +37,7 @@
   </Conversation>
   <Conversation line="Век живи - век учись." speaker="0" speakertags="survivor" minintensity="0.4" maxintensity="0.5" />
   <Conversation line="Работаем-работаем! Ни секунды без работы!" speaker="0" allowedjobs="captain" minintensity="0.4" maxintensity="0.5" />
-  <Conversation line="Мы присоединимся к обломкам с секунды на секунду!!" speaker="0" speakertags="fearful" minintensity="0.6" maxintensity="0.7" />
+  <Conversation line="Мы вот-вот превратимся в груду обломков!!" speaker="0" speakertags="fearful" minintensity="0.6" maxintensity="0.7" />
   <Conversation line="Спокойно! Сохраняйте спокойствие!" speaker="0" speakertags="professional" minintensity="0.6" maxintensity="0.7">
     <Conversation line="Ты уверен?!" speaker="1" speakertags="fearful" />
     <Conversation line="Вот это настрой!" speaker="1" speakertags="professional,optimist" />
@@ -51,7 +51,7 @@
       <Conversation line="Помогай давай!" speaker="2" speakertags="professional" />
     </Conversation>
   </Conversation>
-  <Conversation line="Разрешите напиться после того, как это кончиться?!" speaker="0" allowedjobs="assistant,engineer,mechanic,securityofficer,medicaldoctor" speakertags="laid-back,joker" minintensity="0.6" maxintensity="0.7">
+  <Conversation line="Разрешите напиться после того, как это кончится?!" speaker="0" allowedjobs="assistant,engineer,mechanic,securityofficer,medicaldoctor" speakertags="laid-back,joker" minintensity="0.6" maxintensity="0.7">
     <Conversation line="Только если будешь выполнять свою работу!" speaker="1" allowedjobs="captain" />
   </Conversation>
   <Conversation line="Что-то штормит сегодня море." speaker="0" speakertags="survivor" minintensity="0.6" maxintensity="0.7" />
@@ -70,7 +70,7 @@
     <Conversation line="Не очень верится!" speaker="1" speakertags="rude" />
   </Conversation>
   <Conversation line="Сообщите Коалиции, что эта подлодка теперь груда обломков." speaker="0" allowedjobs="captain" minintensity="0.8" maxintensity="1.0">
-    <Conversation line="Вы чего прекратили пытаться?!" speaker="1" speakertags="optimist" />
+    <Conversation line="Вы чего, перестали бороться?!" speaker="1" speakertags="optimist" />
   </Conversation>
   <Conversation line="Не думаю, что мы выберемся отсюда." speaker="0" speakertags="survivor" minintensity="0.8" maxintensity="1.0" />
   <Conversation line="Зато как хорошо было!" speaker="0" speakertags="laid-back" minintensity="0.8" maxintensity="1.0">
@@ -81,7 +81,7 @@
   </Conversation>
   <Conversation line="Наши души проходят в новую жизнь, за Вуаль..." speaker="0" speakertags="crazy" minintensity="0.8" maxintensity="1.0" />
   <Conversation line="Вы ведь не похороните меня здесь, да?" speaker="0" speakertags="joker" minintensity="0.8" maxintensity="1.0">
-    <Conversation line="Выборы не будет, если мы все подохнем!" speaker="1" />
+    <Conversation line="Выбора не будет, если мы все подохнем!" speaker="1" />
   </Conversation>
   <Conversation line="Надо продержаться ещё чуточку! Щас всё заработает!" speaker="0" speakertags="optimist" minintensity="0.8" maxintensity="1.0">
     <Conversation line="Забудь про свой оптимизм и посмотри фактам в глаза: МЫ ВСЕ УМРЁМ!!" speaker="1" speakertags="rude,nihilist" />
@@ -133,7 +133,7 @@
     </Conversation>
     <Conversation line="Надеюсь." speaker="1" />
     <Conversation line="Я справлюсь с чем угодно, когда угодно." speaker="1" speakertags="tough">
-      <Conversation line="Но что если крабманы залезут во внутрь?!" speaker="2" speakertags="conspiracist,crazy" />
+      <Conversation line="Но что если крабманы залезут внутрь?!" speaker="2" speakertags="conspiracist,crazy" />
       <Conversation line="Докажи на деле." speaker="2" speakertags="professional,survivor" />
       <Conversation line="Ты такой наглый ублюдок..." speaker="2" speakertags="rude" />
       <Conversation line="Надеюсь, твой вывод можно подтвердить статистикой." speaker="2" speakertags="philosophical" />
@@ -141,7 +141,7 @@
     <Conversation line="Не волнуйся, мы можем." speaker="1" speakertags="optimist" />
     <Conversation line="До скольки сможешь досчитать?" speaker="1" speakertags="crazy">
       <Conversation line="Что за вопрос?" speaker="2" />
-      <Conversation line="Заткни свой грёбанный рот." speaker="2" speakertags="rude" />
+      <Conversation line="Заткни свой грёбаный рот." speaker="2" speakertags="rude" />
       <Conversation line="Высако, большой размер." speaker="2" speakertags="brokenenglish" />
     </Conversation>
     <Conversation line="" speaker="0" flags="Casual" />
@@ -150,7 +150,7 @@
     <Conversation line="Нет." speaker="1" />
     <Conversation line="Дежавю." speaker="1" />
     <Conversation line="Немного." speaker="1" />
-    <Conversation line="Вероятность таких событий невозможно мала." speaker="1" speakertags="philosophical" />
+    <Conversation line="Вероятность таких событий невероятно мала." speaker="1" speakertags="philosophical" />
     <Conversation line="Ты говоришь. Говоришь. Снова и снова. Гаворишь. Говршь. Говр." speaker="0" flags="Psychosis" />
     <Conversation line="Ты задаёшь тупейшие вопросы." speaker="1" speakertags="rude" />
   </Conversation>
@@ -201,14 +201,14 @@
       <Conversation line="Этот дезинформирующий постер уже был убран." speaker="2" speakertags="loyalist" />
     </Conversation>
     <Conversation line="Тот, что про яйца хасков?" speaker="1">
-      <Conversation line="Ещё больше культисткой пропаганды." speaker="0" />
+      <Conversation line="Ещё больше Культистской пропаганды." speaker="0" />
       <Conversation line="Никто в своём уме не продастся культистам." speaker="0" />
       <Conversation line="Давайте украдём и перепродадим их?" speaker="0">
         <Conversation line="Я их на борт не пускаю." speaker="2" allowedjobs="captain" />
         <Conversation line="Я их в каликсанид переделаю." speaker="2" allowedjobs="medicaldoctor" />
       </Conversation>
       <Conversation line="О! Где он? Мне нужно его увидеть!" speaker="2" speakertags="cultist">
-        <Conversation line="Не-не. Ты последний, кому я бы его показал бы." speaker="0" allowedjobs="captain" />
+        <Conversation line="Не-не. Ты последний, Кому я бы его показал." speaker="0" allowedjobs="captain" />
       </Conversation>
     </Conversation>
     <Conversation line="Ох. Те, что о Стероидных торпедах?" speaker="1">
@@ -295,7 +295,7 @@
     <Conversation line="Мы уже на Европе." speaker="1">
       <Conversation line="Хорошее замечание." speaker="0" />
       <Conversation line="Предположу, что это так." speaker="0" />
-      <Conversation line="Европе это наш дом." speaker="2" speakertags="crazy,cultist" />
+      <Conversation line="Европа это наш дом." speaker="2" speakertags="crazy,cultist" />
     </Conversation>
     <Conversation line="Нет, пока люди контролируют море." speaker="1" speakertags="supremacist">
       <Conversation line="Надеемся, что так оно и останется." speaker="0" />
@@ -426,10 +426,10 @@
       <Conversation line="Знаю, но всё ещё ненавижу." speaker="0" />
     </Conversation>
   </Conversation>
-  <Conversation line="Почему только механики заделывают пробоины? Любой придурок справится с сварочным аппаратом." speaker="0" allowedjobs="mechanic" maxintensity="0.4">
+  <Conversation line="Почему только механики заделывают пробоины? Любой придурок справится со сварочным аппаратом." speaker="0" allowedjobs="mechanic" maxintensity="0.4">
     <Conversation line="Механики выигрывают гонки по сварке." speaker="1">
       <Conversation line="Что? Гонки по сварке?" speaker="2">
-        <Conversation line="Я бы поучавствовал." speaker="0" />
+        <Conversation line="Я бы поучаствовал." speaker="0" />
         <Conversation line="Звучит легко. Покажите где расписаться." speaker="0" speakertags="rude,nihilist,tough" />
       </Conversation>
     </Conversation>
@@ -442,9 +442,9 @@
     <Conversation line="Оба варианта хороши." speaker="1" />
     <Conversation line="Выживает сильнейший." speaker="1" speakertags="philosophical" />
     <Conversation line="Согласен." speaker="1" speakertags="professional" />
-    <Conversation line="Тебе не достаточно выжить?" speaker="1" speakertags="joker" />
+    <Conversation line="Тебе недостаточно выжить?" speaker="1" speakertags="joker" />
     <Conversation line="Да, багатства важно." speaker="1" speakertags="brokenenglish" />
-    <Conversation line="Справимся с обоими задачами!" speaker="1" speakertags="optimist" />
+    <Conversation line="Справимся С обеими задачами!" speaker="1" speakertags="optimist" />
     <Conversation line="Процветать. Ребёнок, животное, растение. Процветать нужно всем." speaker="0" flags="Psychosis">
       <Conversation line="Процветать, расцветать." speaker="0" flags="Psychosis">
         <Conversation line="Процветать." speaker="0" flags="Psychosis" />
@@ -566,7 +566,7 @@
       <Conversation line="Я не знаю человека безумнее тебя." speaker="2" />
     </Conversation>
   </Conversation>
-  <Conversation line="Нам было суждено было выполнить эту миссию." speaker="0" speakertags="cultist" maxintensity="0.4">
+  <Conversation line="Нам было суждено выполнить эту миссию." speaker="0" speakertags="cultist" maxintensity="0.4">
     <Conversation line="Надеюсь." speaker="1">
       <Conversation line="И стать новым этапом эволюции человечества." speaker="0">
         <Conversation line="Надеюсь, нет." speaker="1" />
@@ -595,7 +595,7 @@
     </Conversation>
     <Conversation line="Чё так?" speaker="1">
       <Conversation line="Легко тонут и слабо вооружены, даже по сравнению с глубоководными." speaker="0">
-        <Conversation line="Главное преимущество - куча место, если, конечно, мы забудем про существование ящиков." speaker="0">
+        <Conversation line="Главное преимущество - куча места, если, конечно, мы забудем про существование ящиков." speaker="0">
           <Conversation line="Вот-вот." speaker="1" />
           <Conversation line="Никогда об этом не думал." speaker="1" />
           <Conversation line="Хм. А ведь правда." speaker="1" />
@@ -647,7 +647,7 @@
   <Conversation line="Не подскажите, сколько нужно давать морфина?" speaker="0" allowedjobs="medicaldoctor" maxintensity="0.4">
     <Conversation line="А ты разве не медик?" speaker="1">
       <Conversation line="Я попросил подсказать. Хочешь, чтобы я тут всех убил?" speaker="0" allowedjobs="medicaldoctor">
-        <Conversation line="Я подумал, лучше всё таки узнай." speaker="1" />
+        <Conversation line="Я подумал, лучше всё-таки узнай." speaker="1" />
         <Conversation line="Ты должен знать." speaker="1" />
         <Conversation line="Нет оправдания отсутствию знания." speaker="1" />
       </Conversation>
@@ -702,7 +702,7 @@
     </Conversation>
     <Conversation line="А он лёгок в производстве?" speaker="1">
       <Conversation line="Так же лёгок, как драка ключом с молохом." speaker="2" speakertags="rude" />
-      <Conversation line="Не легко, но осуществимо." speaker="0" allowedjobs="medicaldoctor" />
+      <Conversation line="Нелегко, но осуществимо." speaker="0" allowedjobs="medicaldoctor" />
     </Conversation>
   </Conversation>
   <Conversation line="Рыбные чипсы уже не в моде. Что думаете о чипсах со вкусом ползуна?" speaker="0" speakertags="crazy" maxintensity="0.4">
@@ -986,7 +986,7 @@
     <Conversation line="Рапторы." speaker="1">
       <Conversation line="Почему?" speaker="0">
         <Conversation line="Потому что они, чёрт его возьми, везде." speaker="1" />
-        <Conversation line="С ними чуть-ли не эпидемия на Европе." speaker="1" />
+        <Conversation line="С ними чуть ли не эпидемия на Европе." speaker="1" />
         <Conversation line="Потому что они в каждом уголке Европы." speaker="1" />
       </Conversation>
     </Conversation>
@@ -1029,7 +1029,7 @@
       <Conversation line="Они стоят почти столько же, сколько и скафандр." speaker="0" />
       <Conversation line="Зачем он нужен, если есть цепные пушки?" speaker="0">
         <Conversation line="Иногда, очень надо." speaker="1" />
-        <Conversation line="Бывает такие ситуации." speaker="1" />
+        <Conversation line="Бывают такие ситуации." speaker="1" />
         <Conversation line="Очевидно." speaker="1" />
       </Conversation>
     </Conversation>
@@ -1202,7 +1202,7 @@
         <Conversation line="Я сделал сколько смог." speaker="2" allowedjobs="securityofficer" />
       </Conversation>
     </Conversation>
-    <Conversation line="Если хочешь проверить её, то мы всё будем на другом конце подлодки." speaker="1">
+    <Conversation line="Если хочешь проверить её, то мы все будем на другом конце подлодки." speaker="1">
       <Conversation line="Хорошо." speaker="0" />
       <Conversation line="Давай прям щас проверю." speaker="0" />
     </Conversation>
@@ -1422,7 +1422,7 @@
     <Conversation line="Даже в контейнерах?" speaker="1">
       <Conversation line="Мне всё равно насколько они там защищены, никаких артефактов на борту." speaker="2" allowedjobs="captain" />
       <Conversation line="Ну, тепловой артефакт контейнер не остановит." speaker="0" />
-      <Conversation line="У тебя не получиться такой прикол с тепловым артефактом!" speaker="0" />
+      <Conversation line="У тебя не получится такой прикол с тепловым артефактом!" speaker="0" />
     </Conversation>
     <Conversation line="Согласен. Чистое зло." speaker="1">
       <Conversation line="Я знаю о подлодках которые потонули из-за теплового артефакта." speaker="0" />
@@ -2057,11 +2057,11 @@
     </Conversation>
     <Conversation line="Доказательство существования Вуали..." speaker="1" speakertags="crazy" />
   </Conversation>
-  <Conversation line="Был капитан Коалиции с которым мне увилось поговорить... Всё говорил о его фразочках." speaker="0" maxintensity="0.4">
+  <Conversation line="Был капитан Коалиции с которым мне удалось поговорить... Всё болтал о его фразочках." speaker="0" maxintensity="0.4">
     <Conversation line="Одна из его любимых это..." speaker="0">
       <Conversation line="“Отправьте их в ад и обратно!”" speaker="0" />
       <Conversation line="“Подожги их как ёбанную новогоднюю ёлку!”" speaker="0" />
-      <Conversation line="“Сьешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
+      <Conversation line="“Съешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
       <Conversation line="“Хочешь, называй это геноцидом, а я называю это правильным решением.”" speaker="0" />
       <Conversation line="“Капитан приказал: Убить каждого!”" speaker="0" />
       <Conversation line="“Отправьте их истерзанные головы обратно их семьям!”" speaker="0" />
@@ -2074,7 +2074,7 @@
     <Conversation line="Его любимая..." speaker="0">
       <Conversation line="“Отправьте их в ад и обратно!”" speaker="0" />
       <Conversation line="“Подожги их как ёбанную новогоднюю ёлку!”" speaker="0" />
-      <Conversation line="“Сьешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
+      <Conversation line="“Съешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
       <Conversation line="“Хочешь, называй это геноцидом, а я называю это правильным решением.”" speaker="0" />
       <Conversation line="“Капитан приказал: Убить каждого!”" speaker="0" />
       <Conversation line="“Отправьте их истерзанные головы обратно их семьям!”" speaker="0" />
@@ -2087,7 +2087,7 @@
     <Conversation line="Любил говорить он..." speaker="0">
       <Conversation line="“Отправьте их в ад и обратно!”" speaker="0" />
       <Conversation line="“Подожги их как ёбанную новогоднюю ёлку!”" speaker="0" />
-      <Conversation line="“Сьешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
+      <Conversation line="“Съешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
       <Conversation line="“Хочешь, называй это геноцидом, а я называю это правильным решением.”" speaker="0" />
       <Conversation line="“Капитан приказал: Убить каждого!”" speaker="0" />
       <Conversation line="“Отправьте их истерзанные головы обратно их семьям!”" speaker="0" />
@@ -2100,7 +2100,7 @@
     <Conversation line="Сказал, что ему нравится фразочки типа..." speaker="0">
       <Conversation line="“Отправьте их в ад и обратно!”" speaker="0" />
       <Conversation line="“Подожги их как ёбанную новогоднюю ёлку!”" speaker="0" />
-      <Conversation line="“Сьешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
+      <Conversation line="“Съешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
       <Conversation line="“Хочешь, называй это геноцидом, а я называю это правильным решением.”" speaker="0" />
       <Conversation line="“Капитан приказал: Убить каждого!”" speaker="0" />
       <Conversation line="“Отправьте их истерзанные головы обратно их семьям!”" speaker="0" />
@@ -2113,7 +2113,7 @@
     <Conversation line="Сказал, что вселяющей больше всего страха в сепаров была..." speaker="0">
       <Conversation line="“Отправьте их в ад и обратно!”" speaker="0" />
       <Conversation line="“Подожги их как ёбанную новогоднюю ёлку!”" speaker="0" />
-      <Conversation line="“Сьешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
+      <Conversation line="“Съешьте их органы, сломите их волю и окончите их род!”" speaker="0" />
       <Conversation line="“Хочешь, называй это геноцидом, а я называю это правильным решением.”" speaker="0" />
       <Conversation line="“Капитан приказал: Убить каждого!”" speaker="0" />
       <Conversation line="“Отправьте их истерзанные головы обратно их семьям!”" speaker="0" />
@@ -3334,7 +3334,7 @@
     <Conversation line="Они странный." speaker="1" speakertags="brokenenglish" />
     <Conversation line="Вы должны прислушаться к зову. Такова наша судьба." speaker="1" speakertags="crazy">
       <Conversation line="Правильно, неважно когда, нужно следовать зову." speaker="2" speakertags="crazy" />
-      <Conversation line="Я служу только человеческую." speaker="2" speakertags="supremacist" />
+      <Conversation line="Я служу только человечеству." speaker="2" speakertags="supremacist" />
       <Conversation line="Чувак, ты сошёл с ума." speaker="0" />
       <Conversation line="В каком это смысле?" speaker="2">
         <Conversation line="Гудок дарует спокойствие, силу, радость." speaker="1">
@@ -3389,7 +3389,7 @@
     <Conversation line="Наберись опыта, но не сейчас." speaker="1">
       <Conversation line="А когда?" speaker="2" />
       <Conversation line="Так точно." speaker="0" />
-      <Conversation line="Когда не сейчас? Мы на Европе, времени нет." speaker="2" speakertags="nihilist" />
+      <Conversation line="Когда, если не сейчас? Мы на Европе, времени нет." speaker="2" speakertags="nihilist" />
     </Conversation>
     <Conversation line="Хорошая проводка может спасти экипаж. Узнал из первых рук." speaker="1" speakertags="survivor">
       <Conversation line="Надо бы заняться изучением." speaker="0" />
@@ -3416,7 +3416,7 @@
     <Conversation line="Представь как легко с таким расправится Червь." speaker="1">
       <Conversation line="Бломок." speaker="2" speakertags="joker">
         <Conversation line="Что?" speaker="1" />
-        <Conversation line="Обломок всмысле?" speaker="3" />
+        <Conversation line="Обломок в смысле?" speaker="3" />
         <Conversation line="Что?" speaker="3" />
         <Conversation line="Эм... Кто-то понял?" speaker="1" />
         <Conversation line="Что за бломок?" speaker="3" speakertags="brokenenglish" />
@@ -3505,7 +3505,7 @@
         <Conversation line="Думаю да." speaker="1" />
         <Conversation line="Я... Думаю да." speaker="1" />
       </Conversation>
-      <Conversation line="Вода или холодная или тёплая." speaker="0">
+      <Conversation line="Вода либо холодная, либо тёплая." speaker="0">
         <Conversation line="Это из-за биомов, а не времён года." speaker="1" />
         <Conversation line="Это из-за биомов. Я думаю." speaker="1" />
         <Conversation line="Нет, времена года же не постоянные." speaker="1" />
@@ -3806,7 +3806,7 @@
       <Conversation line="Не нужны нам никакие корабли с припасами." speaker="1" speakertags="survivor" />
     </Conversation>
     <Conversation line="Не верю. Марс всегда был важнее Европы." speaker="1">
-      <Conversation line="Ум, всё таки ты прав. Не подумал." speaker="0" />
+      <Conversation line="Ум, всё-таки ты прав. Не подумал." speaker="0" />
       <Conversation line="Ну и бред, у нас тут дела намного хуже." speaker="0" />
       <Conversation line="Билеты колонизатора на Европу ещё и дешевле были. Они знали что делают." speaker="1" />
       <Conversation line="Ну не знаю... На рынке планеты всё ещё полно припасов..." speaker="0" />
@@ -3843,7 +3843,7 @@
     <Conversation line="Всё ради безопасности." speaker="1">
       <Conversation line="Да разве Коалиции не всё равно на безопасность? Будем честны, они просто наполняют свои карманы." speaker="0">
         <Conversation line="Как бы то ни было, я буду придерживаться этих уровней." speaker="2" allowedjobs="captain" />
-        <Conversation line="Ладно, буду честен. Ты конкретный дебилойд, вот моя честность." speaker="2" speakertags="rude" />
+        <Conversation line="Ладно, буду честен. Ты конкретный дебилоид, вот моя честность." speaker="2" speakertags="rude" />
         <Conversation line="Они тебя защищают..." speaker="1" />
         <Conversation line="Если ты и правда хочешь отправиться в глубины на своей подлодке первого уровня... Шлюз всегда открыт." speaker="1" />
       </Conversation>
